@@ -3,7 +3,7 @@ local LocalPlayer = Players.LocalPlayer
 
 fishinfogui = Instance.new("ScreenGui")
 fishinfogui.Name = "FishInfoGUI"
-fishinfogui.Parent = LocalPlayer.PlayerGui
+fishinfogui.Parent = LocalPlayer.PlayerGUI
 
 frame = Instance.new("Frame")
 frame.Name = "Frame"
