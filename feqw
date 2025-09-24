@@ -1,14 +1,6 @@
-local Players = game:GetService('Players')
-local LocalPlayer = Players.LocalPlayer
-
--- Wait for PlayerGui to be available
-if not LocalPlayer.PlayerGui then
-    LocalPlayer:WaitForChild("PlayerGui")
-end
-
 fishinfogui = Instance.new("ScreenGui")
 fishinfogui.Name = "FishInfoGUI"
-fishinfogui.Parent = LocalPlayer.PlayerGui
+fishinfogui.Parent = game:GetService("Players").LocalPlayer.PlayerGui
 
 frame = Instance.new("Frame")
 frame.Name = "Frame"
